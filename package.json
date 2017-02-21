@@ -1,0 +1,34 @@
+{
+  "name": "next-universal-redirect",
+  "version": "0.1.0",
+  "description": "Higher order component to handle both client and server side redirecting with Next.js",
+  "main": "dist.js",
+  "repository": "timneutkens/next-redirect",
+  "author": "Tim Neutkens",
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "next"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.23.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0"
+  },
+  "babel": {
+    "presets": [
+      "latest",
+      "react"
+    ],
+    "plugins": ["transform-runtime"]
+  },
+  "scripts": {
+    "build": "babel index.js > dist.js",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "dist.js"
+  ]
+}
