@@ -4,6 +4,8 @@ Higher order component to handle both client and server side redirecting with [N
 
 Note: this package is made for Next.js 2.0+
 
+Example: [with-universal-redirect.now.sh](https://with-universal-redirect.now.sh/)
+
 ## Installation
 
 `npm install --save next-universal-redirect`
