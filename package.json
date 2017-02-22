@@ -1,9 +1,9 @@
 {
   "name": "next-universal-redirect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Higher order component to handle both client and server side redirecting with Next.js",
   "main": "dist.js",
-  "repository": "timneutkens/next-redirect",
+  "repository": "timneutkens/next-universal-redirect",
   "author": "Tim Neutkens",
   "license": "MIT",
   "keywords": [
